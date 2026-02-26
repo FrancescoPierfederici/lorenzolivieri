@@ -13,13 +13,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="container-narrow flex items-center justify-between h-16 px-6 lg:px-24">
-        <a href="#home" className="font-serif text-xl font-semibold tracking-wide text-foreground">
-          Marco Ferretti
+        <a href="#home" className="font-serif text-xl font-bold tracking-wider text-foreground">
+          <span className="text-primary">M</span>arco <span className="text-primary">F</span>erretti
         </a>
 
-        {/* Desktop */}
         <ul className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <li key={item.label}>
@@ -27,7 +26,7 @@ const Navbar = () => {
                 href={item.href}
                 target={item.external ? "_blank" : undefined}
                 rel={item.external ? "noopener noreferrer" : undefined}
-                className="text-sm font-medium tracking-wide text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 {item.label}
               </a>
@@ -35,7 +34,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-foreground"
@@ -45,9 +43,8 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-background border-b border-border animate-fade-in">
+        <div className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
           <ul className="flex flex-col items-center gap-6 py-8">
             {navItems.map((item) => (
               <li key={item.label}>
@@ -56,7 +53,7 @@ const Navbar = () => {
                   target={item.external ? "_blank" : undefined}
                   rel={item.external ? "noopener noreferrer" : undefined}
                   onClick={() => setOpen(false)}
-                  className="text-lg font-medium text-foreground"
+                  className="text-lg font-medium tracking-widest uppercase text-foreground hover:text-primary transition-colors"
                 >
                   {item.label}
                 </a>

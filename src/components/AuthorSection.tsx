@@ -7,27 +7,29 @@ const AuthorSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Text */}
           <div className="space-y-6 order-2 lg:order-1">
-            <p className="text-sm font-medium tracking-[0.2em] uppercase text-primary">
-              Chi sono
+            <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary">
+              L'autore
             </p>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
               La mia storia
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sono nato a Senigallia, sulle rive di un Adriatico che non smette mai di raccontare.
-                Cresciuto tra i vicoli del centro storico e le colline dell'entroterra marchigiano,
-                ho imparato che ogni luogo custodisce una storia — bisogna solo saperla ascoltare.
+                Sono cresciuto nei vicoli di Senigallia, dove ogni angolo nasconde un segreto
+                e ogni volto racconta una storia mai detta. È lì che ho imparato a osservare —
+                i dettagli che sfuggono, le parole non pronunciate, le ombre che si allungano
+                al calar della sera.
               </p>
               <p>
-                Ho iniziato a scrivere per non dimenticare le voci del porto, i silenzi delle campagne
-                e quel senso di appartenenza che solo chi ha radici profonde conosce davvero.
-                I miei romanzi nascono da qui: dal legame viscerale con questa terra.
+                I miei thriller nascono dall'entroterra marchigiano, da quei silenzi carichi
+                di tensione che solo chi conosce queste terre può percepire. Scrivo di delitti
+                che affondano le radici nel passato, di investigatori imperfetti e di verità
+                che nessuno vorrebbe scoprire.
               </p>
               <p>
-                Oggi scrivo per chi cerca nelle storie uno specchio in cui riconoscersi.
-                Per chi crede che la narrativa possa ancora commuovere, far riflettere
-                e restituire significato ai piccoli gesti quotidiani.
+                Ogni romanzo è un viaggio nelle zone d'ombra dell'animo umano —
+                ambientato in luoghi reali, dove il confine tra colpa e innocenza
+                è sottile come la nebbia sul porto.
               </p>
             </div>
           </div>
@@ -37,7 +39,7 @@ const AuthorSection = () => {
             <img
               src={authorPortrait}
               alt="Marco Ferretti - Ritratto"
-              className="w-full max-w-md mx-auto rounded-sm shadow-xl object-cover aspect-[3/4]"
+              className="w-full max-w-md mx-auto rounded-sm shadow-2xl noir-glow object-cover aspect-[3/4]"
               loading="lazy"
             />
           </div>
