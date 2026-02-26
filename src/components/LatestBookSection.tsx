@@ -3,47 +3,53 @@ import marcheLandscape from "@/assets/marche-landscape.jpg";
 
 const LatestBookSection = () => {
   return (
-    <section id="focus-libro" className="section-padding">
-      <div className="container-narrow">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Visual side */}
-          <div className="relative">
-            <img
-              src={marcheLandscape}
-              alt="Paesaggio delle Marche"
-              className="w-full rounded-sm shadow-xl object-cover aspect-[4/3]"
-              loading="lazy"
-            />
-            <img
-              src={bookCover1}
-              alt="L'Ombra del Porto"
-              className="absolute -bottom-6 -right-6 md:-right-10 w-36 md:w-44 rounded-sm shadow-2xl border-4 border-background"
-              loading="lazy"
-            />
-          </div>
+    <section id="focus-libro" className="relative overflow-hidden">
+      {/* Background landscape */}
+      <img
+        src={marcheLandscape}
+        alt="Porto notturno nelle Marche"
+        className="absolute inset-0 w-full h-full object-cover opacity-30"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 bg-background/80" />
 
-          {/* Text side */}
-          <div className="space-y-6">
-            <p className="text-sm font-medium tracking-[0.2em] uppercase text-primary">
-              Ultimo libro · 2024
-            </p>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground text-balance">
-              L'Ombra del Porto
-            </h2>
-            <blockquote className="border-l-2 border-primary pl-6 italic text-lg text-muted-foreground leading-relaxed font-serif">
-              "Il porto non è mai solo un luogo. È il confine tra ciò che sei stato e ciò che potresti diventare."
-            </blockquote>
-            <p className="text-muted-foreground leading-relaxed">
-              Un romanzo ambientato nella Senigallia degli anni Settanta, dove il destino di tre famiglie si intreccia
-              lungo le banchine del porto. Una storia di segreti, coraggio e radici che affondano nella salsedine
-              adriatica.
-            </p>
-            <a
-              href="#"
-              className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-medium text-sm tracking-wide rounded-sm hover:opacity-90 transition-opacity"
-            >
-              Acquista ora
-            </a>
+      <div className="relative z-10 section-padding">
+        <div className="container-narrow">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            {/* Book cover */}
+            <div className="flex justify-center">
+              <img
+                src={bookCover1}
+                alt="L'Ombra del Porto"
+                className="w-64 md:w-72 rounded-sm shadow-2xl noir-glow"
+                loading="lazy"
+              />
+            </div>
+
+            {/* Text */}
+            <div className="space-y-6">
+              <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary">
+                Ultimo thriller · 2024
+              </p>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground text-balance">
+                L'Ombra del Porto
+              </h2>
+              <blockquote className="border-l-2 border-primary pl-6 italic text-lg text-muted-foreground leading-relaxed font-serif">
+                "Il porto non dimentica mai. Le sue acque scure custodiscono i nomi
+                di chi non è più tornato — e di chi li ha fatti sparire."
+              </blockquote>
+              <p className="text-muted-foreground leading-relaxed">
+                Senigallia, 1978. Un corpo riemerge dalle acque del porto dopo trent'anni.
+                L'ispettore Morandi dovrà scavare nei segreti di tre famiglie
+                per scoprire che la verità più pericolosa è quella che nessuno vuole ascoltare.
+              </p>
+              <a
+                href="#"
+                className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-semibold text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300"
+              >
+                Acquista ora
+              </a>
+            </div>
           </div>
         </div>
       </div>

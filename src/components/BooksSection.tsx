@@ -31,24 +31,24 @@ const BooksSection = () => {
       <div className="container-narrow">
         <div className="flex items-end justify-between mb-12">
           <div>
-            <p className="text-sm font-medium tracking-[0.2em] uppercase text-primary mb-3">
-              Bibliografia
+            <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-3">
+              Casi irrisolti
             </p>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
-              I miei libri
+              I miei thriller
             </h2>
           </div>
           <div className="hidden md:flex gap-2">
             <button
               onClick={() => scroll("left")}
-              className="p-2 border border-border rounded-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="p-2 border border-border rounded-sm text-muted-foreground hover:text-primary hover:border-primary transition-colors duration-300"
               aria-label="Scorri a sinistra"
             >
               <ChevronLeft size={20} />
             </button>
             <button
               onClick={() => scroll("right")}
-              className="p-2 border border-border rounded-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="p-2 border border-border rounded-sm text-muted-foreground hover:text-primary hover:border-primary transition-colors duration-300"
               aria-label="Scorri a destra"
             >
               <ChevronRight size={20} />
@@ -58,7 +58,7 @@ const BooksSection = () => {
 
         <div
           ref={scrollRef}
-          className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide snap-x snap-mandatory"
+          className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {books.map((book) => (
@@ -66,21 +66,21 @@ const BooksSection = () => {
               key={book.title}
               className="flex-shrink-0 w-52 md:w-56 snap-start group cursor-pointer"
             >
-              <div className="overflow-hidden rounded-sm shadow-lg mb-4">
+              <div className="overflow-hidden rounded-sm mb-4 noir-glow">
                 <img
                   src={book.cover}
                   alt={book.title}
-                  className="w-full aspect-[2/3] object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full aspect-[2/3] object-cover transition-transform duration-700 group-hover:scale-110"
                   loading="lazy"
                 />
               </div>
-              <h3 className="font-serif font-semibold text-foreground mb-1">
+              <h3 className="font-serif font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
                 {book.title}
               </h3>
               <p className="text-sm text-muted-foreground mb-3">{book.year}</p>
               <a
                 href="#"
-                className="text-sm font-medium text-primary hover:underline underline-offset-4"
+                className="text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"
               >
                 Acquista →
               </a>
