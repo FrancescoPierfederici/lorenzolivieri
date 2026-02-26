@@ -3,12 +3,12 @@ import bookCover1 from "@/assets/book-cover-1.jpg";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-end overflow-hidden">
-      {/* Full background image */}
+    <section id="home" className="relative min-h-[85vh] sm:min-h-screen flex items-end overflow-hidden">
+      {/* Full background image - object-center on mobile for better framing */}
       <img
         src={authorHero}
         alt="Lorenzo Livieri, scrittore thriller"
-        className="absolute inset-0 w-full h-full object-cover object-top"
+        className="absolute inset-0 w-full h-full object-cover object-center sm:object-top"
         loading="eager"
       />
       {/* Dark overlays */}
@@ -16,34 +16,47 @@ const HeroSection = () => {
       <div className="absolute inset-0" style={{ background: "var(--noir-overlay-top)" }} />
 
       {/* Content */}
-      <div className="relative z-10 w-full px-6 pb-12 pt-32 md:px-12 md:pb-20 lg:px-24 lg:pb-24">
+      <div className="relative z-10 w-full px-5 pb-8 pt-24 sm:px-6 sm:pb-12 sm:pt-32 md:px-12 md:pb-20 lg:px-24 lg:pb-24">
         <div className="container-narrow">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 lg:gap-12 items-end">
-            <div className="space-y-5 animate-fade-in-up">
+            <div className="space-y-4 sm:space-y-5 animate-fade-in-up">
               <p className="text-xs sm:text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
                 Thriller · Noir · Senigallia
               </p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-serif font-bold leading-[1.1] text-foreground text-balance text-glow">
                 Ogni ombra nasconde una verità
               </h1>
-              <p className="text-base sm:text-lg text-muted-foreground max-w-lg leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-lg leading-relaxed">
                 Thriller ambientati nelle Marche. Dove il silenzio delle colline custodisce segreti
                 e le acque del porto cancellano le tracce.
               </p>
-              <a
-                href="#focus-libro"
-                className="inline-block mt-2 px-6 sm:px-8 py-3 sm:py-3.5 bg-primary text-primary-foreground font-semibold text-xs sm:text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300 animate-pulse-glow"
-              >
-                Scopri l'ultimo libro
-              </a>
+
+              {/* Mobile: book + CTA side by side */}
+              <div className="flex items-end gap-4 pt-2 sm:block">
+                <a
+                  href="#focus-libro"
+                  className="block w-full sm:w-auto sm:inline-block text-center px-6 sm:px-8 py-3 sm:py-3.5 bg-primary text-primary-foreground font-semibold text-xs sm:text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300 animate-pulse-glow"
+                >
+                  Scopri l'ultimo libro
+                </a>
+                {/* Book cover visible on mobile, inline */}
+                <div className="flex-shrink-0 lg:hidden relative">
+                  <div className="absolute -inset-3 rounded bg-primary/15 blur-xl" />
+                  <img
+                    src={bookCover1}
+                    alt="L'Ombra del Porto"
+                    className="relative w-20 sm:w-24 rounded-sm shadow-[0_0_30px_-5px_hsl(0_72%_45%/0.5)] border border-primary/25"
+                    loading="eager"
+                  />
+                </div>
+              </div>
             </div>
 
-            {/* Book cover floating - hidden on small screens */}
+            {/* Book cover floating - desktop only */}
             <div
               className="hidden lg:block animate-fade-in-up relative"
               style={{ animationDelay: "0.4s" }}
             >
-              {/* Red ambient glow behind the book */}
               <div className="absolute -inset-6 rounded-lg bg-primary/20 blur-2xl animate-pulse-glow" />
               <img
                 src={bookCover1}

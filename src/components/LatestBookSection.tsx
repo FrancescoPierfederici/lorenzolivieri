@@ -7,23 +7,23 @@ const LatestBookSection = () => {
       <img
         src={bookEmerge}
         alt="Personaggio che emerge dal libro - L'Ombra del Porto"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-right sm:object-center"
         loading="lazy"
       />
-      {/* Gradient overlays for readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50" />
+      {/* Gradient overlays - stronger on mobile for readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/40 sm:from-background/95 sm:via-background/70 sm:to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/60 sm:to-background/50" />
 
-      <div className="relative z-10 px-6 py-24 md:px-12 md:py-32 lg:px-24 lg:py-40">
+      <div className="relative z-10 px-5 py-16 sm:px-6 sm:py-24 md:px-12 md:py-32 lg:px-24 lg:py-40">
         <div className="container-narrow">
-          <div className="max-w-lg space-y-6">
+          <div className="max-w-md sm:max-w-lg space-y-5 sm:space-y-6">
             <p className="text-xs sm:text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
               Ultimo libro · 2024
             </p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground text-balance text-glow">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground text-balance text-glow">
               L'Ombra del Porto
             </h2>
-            <blockquote className="border-l-2 border-primary pl-5 sm:pl-6 italic text-base sm:text-lg text-muted-foreground leading-relaxed font-serif">
+            <blockquote className="border-l-2 border-primary pl-4 sm:pl-6 italic text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed font-serif">
               "Il porto non dimentica mai. Le sue acque scure custodiscono i nomi
               di chi non è più tornato — e di chi li ha fatti sparire."
             </blockquote>
@@ -34,7 +34,7 @@ const LatestBookSection = () => {
             </p>
             <a
               href="#"
-              className="inline-block px-6 sm:px-8 py-3 sm:py-3.5 bg-primary text-primary-foreground font-semibold text-xs sm:text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300 animate-pulse-glow"
+              className="block w-full sm:w-auto sm:inline-block text-center px-6 sm:px-8 py-3 sm:py-3.5 bg-primary text-primary-foreground font-semibold text-xs sm:text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300 animate-pulse-glow"
             >
               Acquista ora
             </a>

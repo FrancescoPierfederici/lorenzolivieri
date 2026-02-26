@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
-      <div className="container-narrow flex items-center justify-between h-16 px-6 lg:px-24">
+      <div className="container-narrow flex items-center justify-between h-14 sm:h-16 px-5 sm:px-6 lg:px-24">
         <a href="#home" className="font-serif text-lg sm:text-xl font-bold tracking-wider text-foreground">
           <span className="text-primary">L</span>orenzo <span className="text-primary">L</span>ivieri
         </a>
@@ -36,24 +36,24 @@ const Navbar = () => {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-foreground"
+          className="md:hidden text-foreground p-2 -mr-2 active:text-primary transition-colors"
           aria-label="Menu"
         >
-          {open ? <X size={24} /> : <Menu size={24} />}
+          {open ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
 
       {open && (
         <div className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
-          <ul className="flex flex-col items-center gap-6 py-8">
+          <ul className="flex flex-col items-center gap-1 py-4">
             {navItems.map((item) => (
-              <li key={item.label}>
+              <li key={item.label} className="w-full">
                 <a
                   href={item.href}
                   target={item.external ? "_blank" : undefined}
                   rel={item.external ? "noopener noreferrer" : undefined}
                   onClick={() => setOpen(false)}
-                  className="text-lg font-medium tracking-widest uppercase text-foreground hover:text-primary transition-colors"
+                  className="block text-center py-3 text-base font-medium tracking-widest uppercase text-foreground active:text-primary transition-colors"
                 >
                   {item.label}
                 </a>
