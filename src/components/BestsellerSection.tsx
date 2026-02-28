@@ -1,12 +1,12 @@
-import bookCover2 from "@/assets/book-cover-2.jpg";
+import bestsellerBg from "@/assets/bestseller-bg.jpg";
 
 const BestsellerSection = () => {
   return (
     <section id="bestseller" className="relative overflow-hidden">
       {/* Full-bleed immersive background */}
       <img
-        src={bookCover2}
-        alt="Vento di Senigallia - Il libro più acquistato"
+        src={bestsellerBg}
+        alt="Tornado su costa italiana - Vento di Senigallia"
         className="absolute inset-0 w-full h-full object-cover object-left sm:object-center"
         loading="lazy"
       />
