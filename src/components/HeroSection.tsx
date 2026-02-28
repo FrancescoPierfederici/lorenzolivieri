@@ -38,16 +38,6 @@ const HeroSection = () => {
                 >
                   Scopri l'ultimo libro
                 </a>
-                {/* Book cover visible on mobile */}
-                <div className="flex-shrink-0 lg:hidden relative">
-                  <div className="absolute -inset-3 rounded bg-primary/15 blur-xl" />
-                  <img
-                    src={bookCover1}
-                    alt="L'Ombra del Porto"
-                    className="relative w-24 sm:w-24 rounded-sm shadow-[0_0_30px_-5px_hsl(0_72%_45%/0.5)] border border-primary/25"
-                    loading="eager"
-                  />
-                </div>
               </div>
             </div>
 
