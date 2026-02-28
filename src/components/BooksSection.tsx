@@ -29,12 +29,12 @@ const BooksSection = () => {
   return (
     <section id="libri" className="section-padding bg-card">
       <div className="container-narrow">
-        <div className="flex items-end justify-between mb-10 sm:mb-12">
+        <div className="flex items-end justify-between mb-8 sm:mb-12">
           <div>
-            <p className="text-xs sm:text-sm font-medium tracking-[0.3em] uppercase text-primary mb-2 sm:mb-3">
+            <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary mb-2 sm:mb-3">
               Bibliografia
             </p>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground">
               I miei libri
             </h2>
           </div>
@@ -58,13 +58,13 @@ const BooksSection = () => {
 
         <div
           ref={scrollRef}
-          className="flex gap-4 sm:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
+          className="flex gap-5 sm:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {books.map((book) => (
             <div
               key={book.title}
-              className="flex-shrink-0 w-40 sm:w-52 md:w-56 snap-start group cursor-pointer"
+              className="flex-shrink-0 w-44 sm:w-52 md:w-56 snap-start group cursor-pointer"
             >
               <div className="overflow-hidden rounded-sm mb-3 sm:mb-4 noir-glow">
                 <img
@@ -74,13 +74,13 @@ const BooksSection = () => {
                   loading="lazy"
                 />
               </div>
-              <h3 className="font-serif text-sm sm:text-base font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+              <h3 className="font-serif text-base sm:text-base font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
                 {book.title}
               </h3>
-              <p className="text-xs sm:text-sm text-muted-foreground mb-2 sm:mb-3">{book.year}</p>
+              <p className="text-sm sm:text-sm text-muted-foreground mb-2 sm:mb-3">{book.year}</p>
               <a
                 href="#"
-                className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"
+                className="text-sm sm:text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"
               >
                 Acquista →
               </a>
