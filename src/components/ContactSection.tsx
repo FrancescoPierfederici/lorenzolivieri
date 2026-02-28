@@ -4,45 +4,44 @@ const ContactSection = () => {
   return (
     <section id="contatti" className="section-padding">
       <div className="container-narrow text-center max-w-2xl mx-auto px-4">
-        <p className="text-xs sm:text-sm font-medium tracking-[0.3em] uppercase text-primary mb-3">
+        <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary mb-3">
           Restiamo in contatto
         </p>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 sm:mb-6">
+        <h2 className="text-3xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 sm:mb-6">
           Contatti
         </h2>
-        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-8 sm:mb-10">
-          Per collaborazioni, presentazioni, eventi letterari o semplicemente
-          per condividere una teoria sul colpevole.
+        <p className="text-base sm:text-base text-muted-foreground leading-relaxed mb-8 sm:mb-10">
+          Per collaborazioni, presentazioni o eventi letterari.
         </p>
 
         <div className="flex flex-col items-center gap-6">
           <a
             href="mailto:lorenzo.livieri@esempio.it"
-            className="flex items-center gap-3 px-5 sm:px-6 py-3 border border-border rounded-sm text-foreground hover:border-primary hover:text-primary transition-colors duration-300 text-xs sm:text-sm"
+            className="flex items-center gap-3 px-5 sm:px-6 py-3.5 border border-border rounded-sm text-foreground hover:border-primary hover:text-primary transition-colors duration-300 text-sm sm:text-sm"
           >
-            <Mail size={18} />
+            <Mail size={20} />
             <span className="font-medium">lorenzo.livieri@esempio.it</span>
           </a>
         </div>
 
-        <div className="flex items-center justify-center gap-6 mt-8">
+        <div className="flex items-center justify-center gap-8 mt-8">
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors duration-300"
+            className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
             aria-label="Instagram"
           >
-            <Instagram size={22} />
+            <Instagram size={26} />
           </a>
           <a
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors duration-300"
+            className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
             aria-label="Facebook"
           >
-            <Facebook size={22} />
+            <Facebook size={26} />
           </a>
         </div>
       </div>
