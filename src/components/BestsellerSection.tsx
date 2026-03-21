@@ -36,7 +36,9 @@ const BestsellerSection = () => {
               </p>
               <div className="flex justify-end">
                 <a
-                  href="#"
+                  href="https://www.venturaedizioni.it/prodotto/vincisgrassi-rock-and-roll/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block w-full sm:w-auto sm:inline-block text-center px-6 sm:px-8 py-3.5 sm:py-3.5 bg-primary text-primary-foreground font-semibold text-sm sm:text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300 animate-pulse-glow"
                 >
                   Acquista ora

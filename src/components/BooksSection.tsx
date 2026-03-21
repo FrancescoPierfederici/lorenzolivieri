@@ -5,13 +5,17 @@ import bookCover2 from "@/assets/book-cover-2.jpg";
 import bookCover3 from "@/assets/book-cover-3.jpg";
 import bookCover4 from "@/assets/book-cover-4.jpg";
 import bookCover5 from "@/assets/book-cover-5.jpg";
+import bookCover6 from "@/assets/book-cover-6.jpg";
+import bookCover7 from "@/assets/book-cover-7.jpg";
 
 const books = [
-  { title: "La Notte di Ognissanti", cover: bookCover1 },
-  { title: "Il Verdicchio Uccide", cover: bookCover2 },
-  { title: "Vincisgrassi & Rock and Roll", cover: bookCover3 },
-  { title: "Ciavattoni alla Vinicio", cover: bookCover4 },
-  { title: "Posta di Donna Soprana e Altera", cover: bookCover5 },
+  { title: "La Notte di Ognissanti", cover: bookCover1, link: "https://www.venturaedizioni.it/prodotto/la-notte-di-ognissanti/" },
+  { title: "Il Verdicchio Uccide", cover: bookCover2, link: "https://www.venturaedizioni.it/prodotto/il-verdicchio-uccide/" },
+  { title: "Vincisgrassi & Rock and Roll", cover: bookCover3, link: "https://www.venturaedizioni.it/prodotto/vincisgrassi-rock-and-roll/" },
+  { title: "Ciavattoni alla Vinicio", cover: bookCover4, link: "https://www.venturaedizioni.it/prodotto/ciavattoni-alla-vinicio/" },
+  { title: "Posta di Donna Soprana e Altera", cover: bookCover5, link: "https://www.unilibro.it/libro/livieri-lorenzo/posta-di-donna-soprana-e-altera/9788868848446" },
+  { title: "Mai Sobrio a Natale", cover: bookCover6, link: "https://www.venturaedizioni.it/prodotto/mai-sobrio-a-natale/" },
+  { title: "L'America di John Smith l'Italiano", cover: bookCover7, link: "https://www.venturaedizioni.it/prodotto/lamerica-di-john-smith-litaliano/" },
 ];
 
 const BooksSection = () => {
@@ -79,7 +83,9 @@ const BooksSection = () => {
               </h3>
               <div className="h-2" />
               <a
-                href="#"
+                href={book.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm sm:text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"
               >
                 Acquista →
