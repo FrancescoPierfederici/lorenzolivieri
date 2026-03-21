@@ -66,9 +66,12 @@ const BooksSection = () => {
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {books.map((book) => (
-            <div
+            <a
               key={book.title}
-              className="flex-shrink-0 w-44 sm:w-52 md:w-56 snap-start group cursor-pointer"
+              href={book.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 w-44 sm:w-52 md:w-56 snap-start group cursor-pointer block"
             >
               <div className="overflow-hidden rounded-sm mb-3 sm:mb-4 noir-glow">
                 <img
