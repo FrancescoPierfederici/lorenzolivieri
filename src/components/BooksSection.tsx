@@ -7,11 +7,11 @@ import bookCover4 from "@/assets/book-cover-4.jpg";
 import bookCover5 from "@/assets/book-cover-5.jpg";
 
 const books = [
-  { title: "La Notte di Ognissanti", year: "2025", cover: bookCover1 },
-  { title: "Vento di Senigallia", year: "2022", cover: bookCover2 },
-  { title: "Le Colline Parlano", year: "2020", cover: bookCover3 },
-  { title: "Radici di Sale", year: "2018", cover: bookCover4 },
-  { title: "Il Confine dell'Anima", year: "2016", cover: bookCover5 },
+  { title: "La Notte di Ognissanti", cover: bookCover1 },
+  { title: "Il Verdicchio Uccide", cover: bookCover2 },
+  { title: "Vincisgrassi & Rock and Roll", cover: bookCover3 },
+  { title: "Ciavattoni alla Vinicio", cover: bookCover4 },
+  { title: "Posta di Donna Soprana e Altera", cover: bookCover5 },
 ];
 
 const BooksSection = () => {
@@ -77,7 +77,7 @@ const BooksSection = () => {
               <h3 className="font-serif text-base sm:text-base font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
                 {book.title}
               </h3>
-              <p className="text-sm sm:text-sm text-muted-foreground mb-2 sm:mb-3">{book.year}</p>
+              <div className="h-2" />
               <a
                 href="#"
                 className="text-sm sm:text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"

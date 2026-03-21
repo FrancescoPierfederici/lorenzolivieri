@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="container-narrow">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 lg:gap-12 items-end">
             <div className="space-y-5 sm:space-y-5 animate-fade-in-up">
-              <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
+              <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-foreground animate-flicker">
                 Thriller · Noir · Senigallia
               </p>
               <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-serif font-bold leading-[1.1] text-foreground text-balance text-glow">
