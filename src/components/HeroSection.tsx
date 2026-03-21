@@ -49,7 +49,7 @@ const HeroSection = () => {
               <div className="absolute -inset-6 rounded-lg bg-primary/20 blur-2xl animate-pulse-glow" />
               <img
                 src={bookCover1}
-                alt="L'Ombra del Porto - ultimo thriller"
+                alt="La Notte di Ognissanti - ultimo thriller"
                 className="relative w-48 rounded-sm shadow-[0_0_50px_-10px_hsl(0_72%_45%/0.6)] border border-primary/30 transition-transform duration-500 hover:scale-105 hover:-rotate-1"
                 loading="eager"
               />

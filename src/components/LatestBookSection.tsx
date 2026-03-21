@@ -6,7 +6,7 @@ const LatestBookSection = () => {
       {/* Full-bleed immersive background */}
       <img
         src={bookEmerge}
-        alt="Personaggio che emerge dal libro - L'Ombra del Porto"
+        alt="La Notte di Ognissanti - ultimo thriller di Lorenzo Livieri"
         className="absolute inset-0 w-full h-full object-cover object-right sm:object-center"
         loading="lazy"
       />
@@ -18,19 +18,19 @@ const LatestBookSection = () => {
         <div className="container-narrow">
           <div className="max-w-md sm:max-w-lg space-y-5 sm:space-y-6">
             <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
-              Ultimo libro · 2024
+              Ultimo libro · 2025
             </p>
             <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground text-balance text-glow">
-              L'Ombra del Porto
+              La Notte di Ognissanti
             </h2>
             <blockquote className="border-l-2 border-primary pl-4 sm:pl-6 italic text-base sm:text-base md:text-lg text-muted-foreground leading-relaxed font-serif">
-              "Il porto non dimentica mai. Le sue acque custodiscono i nomi
-              di chi non è più tornato."
+              "Un'anima incastonata nel nulla attende da secoli chi avrà il coraggio di ascoltarla."
             </blockquote>
             <p className="text-base sm:text-base text-muted-foreground leading-relaxed">
-              Senigallia, 1978. Un corpo riemerge dal porto dopo trent'anni.
-              L'ispettore Morandi scava nei segreti di tre famiglie
-              per una verità che nessuno vuole ascoltare.
+              Tra il 1850 e i giorni nostri, un'anima intrappolata in un limbo cerca liberazione.
+              Nel 2012, un dodicenne scopre un diario in un vecchio baule e da quel giorno
+              incubi ricorrenti lo perseguiteranno. La notte di Ognissanti, a Ostra,
+              tra le cantine della festa degli Sprevengoli, il coraggio sarà l'unica via d'uscita.
             </p>
             <a
               href="#"
