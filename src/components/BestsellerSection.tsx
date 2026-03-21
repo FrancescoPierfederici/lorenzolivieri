@@ -6,7 +6,7 @@ const BestsellerSection = () => {
       {/* Full-bleed immersive background */}
       <img
         src={bestsellerBg}
-        alt="Tornado su costa italiana - Vento di Senigallia"
+        alt="Atmosfera noir blues bar - Vincisgrassi e Rock and Roll"
         className="absolute inset-0 w-full h-full object-cover object-left sm:object-center"
         loading="lazy"
       />
