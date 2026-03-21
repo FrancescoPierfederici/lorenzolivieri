@@ -1,4 +1,4 @@
-import { Mail, Instagram, Facebook } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -16,32 +16,11 @@ const ContactSection = () => {
 
         <div className="flex flex-col items-center gap-6">
           <a
-            href="mailto:lorenzo.livieri@esempio.it"
+            href="mailto:lorenzo.livieri.3@gmail.com"
             className="flex items-center gap-3 px-5 sm:px-6 py-3.5 border border-border rounded-sm text-foreground hover:border-primary hover:text-primary transition-colors duration-300 text-sm sm:text-sm"
           >
             <Mail size={20} />
-            <span className="font-medium">lorenzo.livieri@esempio.it</span>
-          </a>
-        </div>
-
-        <div className="flex items-center justify-center gap-8 mt-8">
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
-            aria-label="Instagram"
-          >
-            <Instagram size={26} />
-          </a>
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
-            aria-label="Facebook"
-          >
-            <Facebook size={26} />
+            <span className="font-medium">lorenzo.livieri.3@gmail.com</span>
           </a>
         </div>
       </div>
