@@ -85,15 +85,10 @@ const BooksSection = () => {
                 {book.title}
               </h3>
               <div className="h-2" />
-              <a
-                href={book.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm sm:text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"
-              >
+              <span className="text-sm sm:text-sm font-semibold tracking-wider uppercase text-primary group-hover:underline underline-offset-4">
                 Acquista →
-              </a>
-            </div>
+              </span>
+            </a>
           ))}
         </div>
       </div>
