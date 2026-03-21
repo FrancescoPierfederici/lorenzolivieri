@@ -15,14 +15,21 @@ const AuthorSection = () => {
             </h2>
             <div className="space-y-4 text-base sm:text-base text-muted-foreground leading-relaxed">
               <p>
-                Sono cresciuto nei vicoli di Senigallia, dove ogni angolo nasconde un segreto.
-                È lì che ho imparato a osservare — i dettagli che sfuggono,
-                le ombre che si allungano al calar della sera.
+                Il mio lavoro è tutt'altro che fare lo scrittore, ma amo trascorrere
+                il tempo libero scrivendo storie. Otto libri pubblicati, una collana tutta mia,
+                spaziando tra generi diversi.
               </p>
               <p>
-                I miei thriller nascono dall'entroterra marchigiano, da quei silenzi
-                carichi di tensione. Scrivo di delitti che affondano nel passato,
-                di investigatori imperfetti e verità scomode.
+                Ho creato personaggi seriali che si intrecciano tra i romanzi: Ocra Luigi,
+                detto Gigi — un libraio gentile, spiritoso e brillante, sempre coinvolto
+                in circostanze misteriose. E il suo alter ego, John Smith L'Italiano —
+                sfacciato, cupo, rissoso e romantico, con una personalità che gli crea
+                più problemi di quanti ne risolva.
+              </p>
+              <p>
+                La passione per la scrittura è innata, ma è stato un particolare stato d'animo
+                nel 2014 ad accendere la scintilla che mi porta a raccontare e a raccontarmi,
+                storia dopo storia.
               </p>
             </div>
           </div>
