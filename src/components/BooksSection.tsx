@@ -77,7 +77,7 @@ const BooksSection = () => {
               <h3 className="font-serif text-base sm:text-base font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
                 {book.title}
               </h3>
-              <p className="text-sm sm:text-sm text-muted-foreground mb-2 sm:mb-3">{book.year}</p>
+              <div className="h-2" />
               <a
                 href="#"
                 className="text-sm sm:text-sm font-semibold tracking-wider uppercase text-primary hover:underline underline-offset-4"
