@@ -7,7 +7,7 @@ import bookCover4 from "@/assets/book-cover-4.jpg";
 import bookCover5 from "@/assets/book-cover-5.jpg";
 
 const books = [
-  { title: "L'Ombra del Porto", year: "2024", cover: bookCover1 },
+  { title: "La Notte di Ognissanti", year: "2025", cover: bookCover1 },
   { title: "Vento di Senigallia", year: "2022", cover: bookCover2 },
   { title: "Le Colline Parlano", year: "2020", cover: bookCover3 },
   { title: "Radici di Sale", year: "2018", cover: bookCover4 },

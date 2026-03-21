@@ -6,7 +6,7 @@ const LatestBookSection = () => {
       {/* Full-bleed immersive background */}
       <img
         src={bookEmerge}
-        alt="Personaggio che emerge dal libro - L'Ombra del Porto"
+        alt="La Notte di Ognissanti - ultimo thriller di Lorenzo Livieri"
         className="absolute inset-0 w-full h-full object-cover object-right sm:object-center"
         loading="lazy"
       />
