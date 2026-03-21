@@ -33,7 +33,9 @@ const LatestBookSection = () => {
               tra le cantine della festa degli Sprevengoli, il coraggio sarà l'unica via d'uscita.
             </p>
             <a
-              href="#"
+              href="https://www.venturaedizioni.it/prodotto/la-notte-di-ognissanti/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full sm:w-auto sm:inline-block text-center px-6 sm:px-8 py-3.5 sm:py-3.5 bg-primary text-primary-foreground font-semibold text-sm sm:text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-all duration-300 animate-pulse-glow"
             >
               Acquista ora
