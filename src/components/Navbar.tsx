@@ -5,7 +5,7 @@ const navItems = [
   { label: "Home", href: "#home" },
   { label: "La mia storia", href: "#storia" },
   { label: "I miei libri", href: "#libri" },
-  { label: "Blog", href: "https://substack.com", external: true },
+  { label: "Blog", href: "https://substack.com/@lorenzolivieri/notes", external: true },
   { label: "Contatti", href: "#contatti" },
 ];
 
