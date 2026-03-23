@@ -12,7 +12,10 @@ const Privacy = () => {
           </h1>
           <div className="space-y-6 text-base text-muted-foreground leading-relaxed">
             <p>
-              <strong className="text-foreground">Titolare del trattamento:</strong> Lorenzo Livieri —{" "}
+              <strong className="text-foreground">Titolare del trattamento:</strong> Lorenzo Livieri<br />
+              P.IVA 01236640429<br />
+              Via Marchetti 27, 60019 Senigallia (AN)<br />
+              Email:{" "}
               <a href="mailto:lorenzo.livieri.3@gmail.com" className="text-primary hover:underline">
                 lorenzo.livieri.3@gmail.com
               </a>
