@@ -6,7 +6,6 @@ const Footer = () => {
           <p>© 2026 <span className="text-primary">Lorenzo Livieri</span>. Tutti i diritti riservati.</p>
           <p className="mt-1">P.IVA 01236640429 — Via Marchetti 27, 60019 Senigallia (AN)</p>
         </div>
-        </p>
         <div className="flex items-center gap-4">
           <a
             href="/privacy"
