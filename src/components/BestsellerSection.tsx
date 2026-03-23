@@ -19,7 +19,7 @@ const BestsellerSection = () => {
           <div className="flex justify-end">
             <div className="max-w-md sm:max-w-lg space-y-5 sm:space-y-6 text-right">
               <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
-                Il mio romanzo · 300+ pagine
+                Il mio romanzo
               </p>
               <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground text-balance text-glow">
                 Vincisgrassi & Rock and Roll
