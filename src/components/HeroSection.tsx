@@ -42,7 +42,10 @@ const HeroSection = () => {
             </div>
 
             {/* Book cover floating - desktop only */}
-            <div
+            <a
+              href="https://www.venturaedizioni.it/prodotto/la-notte-di-ognissanti/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden lg:block animate-fade-in-up relative"
               style={{ animationDelay: "0.4s" }}
             >
@@ -53,7 +56,7 @@ const HeroSection = () => {
                 className="relative w-48 rounded-sm shadow-[0_0_50px_-10px_hsl(0_72%_45%/0.6)] border border-primary/30 transition-transform duration-500 hover:scale-105 hover:-rotate-1"
                 loading="eager"
               />
-            </div>
+            </a>
           </div>
         </div>
       </div>
