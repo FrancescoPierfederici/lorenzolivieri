@@ -54,7 +54,7 @@ const BestsellerSection = () => {
             <div className="flex justify-end">
               <div className="max-w-lg space-y-6 text-right">
                 <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
-                  Il mio romanzo
+                  Il mio romanzo · Bestseller
                 </p>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground text-balance text-glow">
                   Vincisgrassi & Rock and Roll
