@@ -7,7 +7,7 @@ const LatestBookSection = () => {
       <img
         src={bookEmerge}
         alt="La Notte di Ognissanti - ultimo thriller di Lorenzo Livieri"
-        className="absolute inset-0 w-full h-full object-cover object-right sm:object-center"
+        className="absolute inset-0 w-full h-full object-cover object-[70%_center] sm:object-center"
         loading="lazy"
       />
       {/* Gradient overlays */}
