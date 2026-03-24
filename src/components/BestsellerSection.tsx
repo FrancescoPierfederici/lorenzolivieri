@@ -13,7 +13,7 @@ const BestsellerSection = () => {
         />
         <div className="bg-background px-5 py-10 space-y-5">
           <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
-            Il mio romanzo
+            Il mio romanzo · Bestseller
           </p>
           <h2 className="text-3xl font-serif font-bold text-foreground text-balance text-glow">
             Vincisgrassi & Rock and Roll
@@ -25,8 +25,7 @@ const BestsellerSection = () => {
           <p className="text-base text-muted-foreground leading-relaxed">
             La storia di John Smith L'Italiano: un uomo che combatte
             i suoi demoni tra locali fumosi, whiskey e blues. Un viaggio
-            ironico, spregiudicato e politicamente scorretto dove
-            l'amore arriva quando meno te lo aspetti.
+            ironico, spregiudicato e politicamente scorretto.
           </p>
           <a
             href="https://www.venturaedizioni.it/prodotto/vincisgrassi-rock-and-roll/"
@@ -55,7 +54,7 @@ const BestsellerSection = () => {
             <div className="flex justify-end">
               <div className="max-w-lg space-y-6 text-right">
                 <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
-                  Il mio romanzo
+                  Il mio romanzo · Bestseller
                 </p>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground text-balance text-glow">
                   Vincisgrassi & Rock and Roll
@@ -67,8 +66,7 @@ const BestsellerSection = () => {
                 <p className="text-base text-muted-foreground leading-relaxed">
                   La storia di John Smith L'Italiano: un uomo che combatte
                   i suoi demoni tra locali fumosi, whiskey e blues. Un viaggio
-                  ironico, spregiudicato e politicamente scorretto dove
-                  l'amore arriva quando meno te lo aspetti.
+                  ironico, spregiudicato e politicamente scorretto.
                 </p>
                 <div className="flex justify-end">
                   <a
