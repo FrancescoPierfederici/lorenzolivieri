@@ -13,7 +13,7 @@ const BestsellerSection = () => {
         />
         <div className="bg-background px-5 py-10 space-y-5">
           <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
-            Il mio romanzo
+            Il mio romanzo · Bestseller
           </p>
           <h2 className="text-3xl font-serif font-bold text-foreground text-balance text-glow">
             Vincisgrassi & Rock and Roll
