@@ -91,6 +91,11 @@ const BooksSection = () => {
             </a>
           ))}
         </div>
+
+        {/* Mobile scroll hint */}
+        <p className="sm:hidden text-sm text-muted-foreground mt-3 text-center tracking-wide">
+          Scorri →
+        </p>
       </div>
     </section>
   );
