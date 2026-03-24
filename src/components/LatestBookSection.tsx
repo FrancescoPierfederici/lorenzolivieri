@@ -11,8 +11,8 @@ const LatestBookSection = () => {
         loading="lazy"
       />
       {/* Gradient overlays */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/50 sm:from-background/95 sm:via-background/70 sm:to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/60 sm:to-background/50" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/60 to-background/30 sm:from-background/95 sm:via-background/70 sm:to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-background/30 sm:from-background sm:via-transparent sm:to-background/50" />
 
       <div className="relative z-10 px-5 py-16 sm:px-6 sm:py-24 md:px-12 md:py-32 lg:px-24 lg:py-40">
         <div className="container-narrow">
