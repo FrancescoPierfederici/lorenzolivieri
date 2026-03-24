@@ -8,7 +8,7 @@ const HeroSection = () => {
       <img
         src={authorHero}
         alt="Lorenzo Livieri, scrittore thriller"
-        className="absolute inset-0 w-full h-full object-cover object-center sm:object-top"
+        className="absolute inset-0 w-full h-full object-cover object-[30%_center] sm:object-top"
         loading="eager"
       />
       {/* Dark overlays */}
