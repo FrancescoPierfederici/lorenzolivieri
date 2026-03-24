@@ -25,8 +25,7 @@ const BestsellerSection = () => {
           <p className="text-base text-muted-foreground leading-relaxed">
             La storia di John Smith L'Italiano: un uomo che combatte
             i suoi demoni tra locali fumosi, whiskey e blues. Un viaggio
-            ironico, spregiudicato e politicamente scorretto dove
-            l'amore arriva quando meno te lo aspetti.
+            ironico, spregiudicato e politicamente scorretto.
           </p>
           <a
             href="https://www.venturaedizioni.it/prodotto/vincisgrassi-rock-and-roll/"
