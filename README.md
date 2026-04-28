@@ -6,7 +6,12 @@ and SEO.
 
 🔗 **Live site:** [lorenzolivieri.vercel.app](https://lorenzolivieri.vercel.app)
 
-![Preview](./public/preview.jpg)
+<!-- Add a real screenshot of the homepage here:
+     1. Take a screenshot of the live site
+     2. Save it as public/preview.jpg
+     3. Uncomment the line below
+-->
+<!-- ![Preview](./public/preview.jpg) -->
 
 ---
 
