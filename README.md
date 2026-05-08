@@ -2,7 +2,7 @@
 
 A fast, dark, mobile first website for Italian thriller author Lorenzo Livieri.
 Built as a single page React app with a strong focus on typography, atmosphere
-and SEO.
+and SEO. (2026)
 
 🔗 **Live site:** [lorenzolivieri.vercel.app](https://lorenzolivieri.vercel.app)
 
