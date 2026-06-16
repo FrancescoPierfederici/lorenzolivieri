@@ -22,10 +22,25 @@ const Privacy = () => {
             </p>
 
             <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
+              Cookie e tecnologie di analisi
+            </h2>
+            <p>
+              Questo sito non utilizza cookie di profilazione, cookie di terze parti né strumenti di
+              tracciamento (es. Google Analytics, Facebook Pixel, TikTok Pixel, ecc.).
+              Sono presenti esclusivamente cookie tecnici necessari al funzionamento del sito.
+            </p>
+            <p>
+              Qualora venisse attivato Vercel Web Analytics, verranno raccolti dati anonimi e
+              aggregati (es. pagine visitate, paese di provenienza) in forma tale da non permettere
+              l'identificazione dell'utente. Vercel non utilizza cookie per questa analisi e i dati
+              vengono conservati per un periodo massimo di 12 mesi.
+              Per maggiori informazioni: <a href="https://vercel.com/docs/analytics/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Vercel Analytics Privacy Policy</a>.
+            </p>
+
+            <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
               Dati raccolti
             </h2>
             <p>
-              Questo sito web non utilizza cookie di profilazione né strumenti di tracciamento.
               Non vengono raccolti dati personali durante la navigazione. L'unico dato eventualmente
               trattato è l'indirizzo email fornito volontariamente dall'utente tramite la sezione contatti.
             </p>
@@ -59,7 +74,7 @@ const Privacy = () => {
             </p>
 
             <p className="text-sm text-muted-foreground/70 pt-6">
-              Ultimo aggiornamento: Marzo 2026
+              Ultimo aggiornamento: Giugno 2026
             </p>
           </div>
         </div>
