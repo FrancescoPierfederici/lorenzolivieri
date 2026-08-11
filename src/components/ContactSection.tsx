@@ -19,7 +19,7 @@ const ContactSection = () => {
             href="mailto:lorenzo.livieri.3@gmail.com"
             className="flex items-center gap-3 px-5 sm:px-6 py-3.5 border border-border rounded-sm text-foreground hover:border-primary hover:text-primary transition-colors duration-300 text-sm sm:text-sm"
           >
-            <Mail size={20} />
+            <Mail size={20} aria-hidden="true" />
             <span className="font-medium">lorenzo.livieri.3@gmail.com</span>
           </a>
         </div>
