@@ -6,18 +6,32 @@ const Footer = () => {
           <p>© 2026 <span className="text-primary">Lorenzo Livieri</span>. Tutti i diritti riservati.</p>
           <p className="mt-1">P.IVA 01236640429 — Via Marchetti 27, 60019 Senigallia (AN)</p>
         </div>
-        <div className="flex items-center gap-4">
+        <nav aria-label="Link legali" className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
           <a
             href="/privacy"
             className="text-xs text-muted-foreground tracking-widest uppercase hover:text-primary transition-colors"
           >
             Privacy Policy
           </a>
-          <span className="text-muted-foreground/30">|</span>
+          <span aria-hidden="true" className="text-muted-foreground/30">|</span>
+          <a
+            href="/cookie-policy"
+            className="text-xs text-muted-foreground tracking-widest uppercase hover:text-primary transition-colors"
+          >
+            Cookie Policy
+          </a>
+          <span aria-hidden="true" className="text-muted-foreground/30">|</span>
+          <a
+            href="/termini"
+            className="text-xs text-muted-foreground tracking-widest uppercase hover:text-primary transition-colors"
+          >
+            Termini
+          </a>
+          <span aria-hidden="true" className="text-muted-foreground/30">|</span>
           <p className="text-xs text-muted-foreground tracking-widest uppercase">
             Senigallia, Marche — Italia
           </p>
-        </div>
+        </nav>
       </div>
     </footer>
   );
