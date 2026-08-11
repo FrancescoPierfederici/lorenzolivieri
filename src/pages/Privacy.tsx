@@ -113,7 +113,7 @@ const Privacy = () => {
             </p>
 
             <p className="text-sm text-muted-foreground/70 pt-6">
-              Ultimo aggiornamento: Agosto 2026
+              Ultimo aggiornamento: Agosto 2026 — Reclami: Garante per la protezione dei dati personali (www.garanteprivacy.it)
             </p>
           </div>
         </div>
