@@ -5,6 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
+import Cookie from "./pages/Cookie";
+import Termini from "./pages/Termini";
 import NotFound from "./pages/NotFound";
 import CookieBanner from "./components/CookieBanner";
 
