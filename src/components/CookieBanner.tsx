@@ -22,6 +22,10 @@ const CookieBanner = () => {
       <div className="container-narrow flex flex-col sm:flex-row items-center justify-between gap-3 max-w-4xl mx-auto">
         <p className="text-xs sm:text-sm text-muted-foreground text-center sm:text-left leading-relaxed">
           Questo sito utilizza solo cookie tecnici necessari al funzionamento. Nessun dato di profilazione viene raccolto.{" "}
+          <a href="/cookie-policy" className="text-primary hover:underline">
+            Cookie Policy
+          </a>
+          {" · "}
           <a href="/privacy" className="text-primary hover:underline">
             Privacy Policy
           </a>
