@@ -3,9 +3,9 @@ import Footer from "@/components/Footer";
 
 const Privacy = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-dvh bg-background">
       <Navbar />
-      <div className="section-padding pt-28 sm:pt-32">
+      <main className="section-padding pt-28 sm:pt-32">
         <div className="container-narrow max-w-3xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8">
             Privacy Policy
@@ -117,7 +117,7 @@ const Privacy = () => {
             </p>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
