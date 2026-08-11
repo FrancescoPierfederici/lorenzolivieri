@@ -63,6 +63,19 @@ const Privacy = () => {
             </p>
 
             <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
+              Intelligenza artificiale e trasparenza
+            </h2>
+            <p>
+              Il presente sito non utilizza sistemi di intelligenza artificiale con cui l'utente interagisce (chatbot, assistenti virtuali o strumenti simili). Non vengono impiegate tecnologie di riconoscimento emotivo o biometrico, né vengono pubblicati contenuti generati o manipolati da sistemi AI (deepfake, immagini, audio, video o testo sintetico su questioni di interesse pubblico).
+            </p>
+            <p>
+              Ai sensi dell'articolo 50 del Regolamento (UE) 2024/1689 (AI Act), gli obblighi di trasparenza per i fornitori e gli utilizzatori di sistemi di AI riguardano esclusivamente i casi in cui gli utenti interagiscono direttamente con un sistema AI o sono esposti a contenuti sintetici. Poiché nessuna di queste situazioni si verifica nella fruizione del sito, non sussistono specifici obblighi informativi nei confronti dei visitatori.
+            </p>
+            <p>
+              Eventuali strumenti di intelligenza artificiale sono utilizzati, ove del caso, esclusivamente come supporto allo sviluppo tecnico e alla manutenzione del sito, senza alcun trattamento di dati personali degli utenti.
+            </p>
+
+            <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
               Diritti dell'utente
             </h2>
             <p>
@@ -74,7 +87,7 @@ const Privacy = () => {
             </p>
 
             <p className="text-sm text-muted-foreground/70 pt-6">
-              Ultimo aggiornamento: Giugno 2026
+              Ultimo aggiornamento: Aprile 2026
             </p>
           </div>
         </div>
