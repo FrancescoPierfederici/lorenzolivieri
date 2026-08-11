@@ -11,9 +11,6 @@ const BestsellerSection = () => {
           className="w-full h-[45vh] object-cover object-left"
           loading="lazy"
         />
-        <p className="text-[10px] text-muted-foreground/70 text-center py-1.5 bg-background">
-          Immagine generata con intelligenza artificiale
-        </p>
         <div className="bg-background px-5 py-10 space-y-5">
           <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary animate-flicker">
             Il mio romanzo · Bestseller
@@ -38,6 +35,9 @@ const BestsellerSection = () => {
           >
             Acquista ora
           </a>
+          <p className="text-[10px] text-muted-foreground/60 text-center pt-2">
+            Immagine generata con intelligenza artificiale
+          </p>
         </div>
       </div>
 
@@ -49,9 +49,6 @@ const BestsellerSection = () => {
           className="absolute inset-0 w-full h-full object-cover object-center"
           loading="lazy"
         />
-        <p className="absolute bottom-3 right-4 z-20 text-[10px] text-foreground/60 bg-background/60 px-2 py-1 rounded-sm backdrop-blur-sm">
-          Immagine generata con intelligenza artificiale
-        </p>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-background/70 to-background/95" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50" />
 
@@ -87,6 +84,12 @@ const BestsellerSection = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="relative z-10 w-full text-right px-6 pb-6 md:px-12 md:pb-8 lg:px-24">
+          <p className="inline-block text-[10px] text-foreground/60 bg-background/60 px-2.5 py-1 rounded-sm backdrop-blur-sm">
+            Immagine generata con intelligenza artificiale
+          </p>
         </div>
       </div>
     </section>
