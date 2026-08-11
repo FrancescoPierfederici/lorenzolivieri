@@ -46,6 +46,29 @@ const Privacy = () => {
             </p>
 
             <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
+              Hosting e log tecnici
+            </h2>
+            <p>
+              Il sito è ospitato su Vercel Inc., che agisce come responsabile del trattamento. Per
+              motivi di sicurezza e funzionamento, i server dell'hosting possono registrare
+              automaticamente log tecnici (indirizzo IP, data e ora della richiesta, tipo di browser),
+              conservati per un periodo limitato e non utilizzati per profilare l'utente. Eventuali
+              trasferimenti extra UE avvengono sulla base delle Clausole Contrattuali Standard
+              approvate dalla Commissione Europea.
+            </p>
+
+            <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
+              Base giuridica e conservazione
+            </h2>
+            <p>
+              Il trattamento dei log tecnici si basa sul legittimo interesse del titolare
+              (art. 6.1.f GDPR) alla sicurezza del sito; il trattamento delle email di contatto si
+              basa sul consenso dell'utente (art. 6.1.a GDPR). I dati sono conservati per il tempo
+              strettamente necessario a rispondere alla richiesta e comunque non oltre 24 mesi.
+            </p>
+
+
+            <h2 className="text-xl font-serif font-semibold text-foreground pt-4">
               Finalità del trattamento
             </h2>
             <p>
