@@ -38,7 +38,7 @@ const BooksSection = () => {
             <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary mb-2 sm:mb-3">
               Bibliografia
             </p>
-            <h2 className="text-3xl sm:text-3xl md:text-4xl id="titolo-libri" className="text-3xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground">
+            <h2 id="titolo-libri" className="text-3xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground">
               I miei libri
             </h2>
           </div>
