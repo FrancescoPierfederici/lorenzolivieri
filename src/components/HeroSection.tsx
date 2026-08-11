@@ -3,7 +3,7 @@ import bookCover1 from "@/assets/book-cover-1.jpg";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-[90vh] sm:min-h-screen flex items-end overflow-hidden">
+    <section id="home" className="relative min-h-[90dvh] sm:min-h-dvh flex items-end overflow-hidden">
       {/* Full background image */}
       <img
         src={authorHero}
@@ -12,8 +12,8 @@ const HeroSection = () => {
         loading="eager"
       />
       {/* Dark overlays */}
-      <div className="absolute inset-0" style={{ background: "var(--noir-overlay)" }} />
-      <div className="absolute inset-0" style={{ background: "var(--noir-overlay-top)" }} />
+      <div aria-hidden="true" className="absolute inset-0" style={{ background: "var(--noir-overlay)" }} />
+      <div aria-hidden="true" className="absolute inset-0" style={{ background: "var(--noir-overlay-top)" }} />
 
       {/* Content */}
       <div className="relative z-10 w-full px-5 pb-10 pt-24 sm:px-6 sm:pb-12 sm:pt-32 md:px-12 md:pb-20 lg:px-24 lg:pb-24">

@@ -13,7 +13,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
+    <nav aria-label="Navigazione principale" className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="container-narrow flex items-center justify-between h-14 sm:h-16 px-5 sm:px-6 lg:px-24">
         <a href="#home" className="font-serif text-lg sm:text-xl font-bold tracking-wider text-foreground">
           <span className="text-primary">L</span>orenzo <span className="text-primary">L</span>ivieri
@@ -36,15 +36,17 @@ const Navbar = () => {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-foreground p-2 -mr-2 active:text-primary transition-colors"
-          aria-label="Menu"
+          className="md:hidden flex min-h-11 min-w-11 items-center justify-center text-foreground -mr-2 active:text-primary transition-colors"
+          aria-label={open ? "Chiudi menu" : "Apri menu"}
+          aria-expanded={open}
+          aria-controls="menu-mobile"
         >
-          {open ? <X size={22} /> : <Menu size={22} />}
+          {open ? <X size={22} aria-hidden="true" /> : <Menu size={22} aria-hidden="true" />}
         </button>
       </div>
 
       {open && (
-        <div className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
+        <div id="menu-mobile" className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
           <ul className="flex flex-col items-center gap-1 py-4">
             {navItems.map((item) => (
               <li key={item.label} className="w-full">

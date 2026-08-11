@@ -31,14 +31,14 @@ const BooksSection = () => {
   };
 
   return (
-    <section id="libri" className="section-padding bg-card">
+    <section id="libri" aria-labelledby="titolo-libri" className="section-padding bg-card">
       <div className="container-narrow">
         <div className="flex items-end justify-between mb-8 sm:mb-12">
           <div>
             <p className="text-sm sm:text-sm font-medium tracking-[0.3em] uppercase text-primary mb-2 sm:mb-3">
               Bibliografia
             </p>
-            <h2 className="text-3xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground">
+            <h2 id="titolo-libri" className="text-3xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground">
               I miei libri
             </h2>
           </div>
@@ -48,20 +48,23 @@ const BooksSection = () => {
               className="p-2 border border-border rounded-sm text-muted-foreground hover:text-primary hover:border-primary transition-colors duration-300"
               aria-label="Scorri a sinistra"
             >
-              <ChevronLeft size={20} />
+              <ChevronLeft size={20} aria-hidden="true" />
             </button>
             <button
               onClick={() => scroll("right")}
               className="p-2 border border-border rounded-sm text-muted-foreground hover:text-primary hover:border-primary transition-colors duration-300"
               aria-label="Scorri a destra"
             >
-              <ChevronRight size={20} />
+              <ChevronRight size={20} aria-hidden="true" />
             </button>
           </div>
         </div>
 
         <div
           ref={scrollRef}
+          role="group"
+          aria-label="Elenco dei libri, scorrevole orizzontalmente"
+          tabIndex={0}
           className="flex gap-5 sm:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
@@ -71,6 +74,7 @@ const BooksSection = () => {
               href={book.link}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`${book.title} — acquista (si apre in una nuova finestra)`}
               className="flex-shrink-0 w-44 sm:w-52 md:w-56 snap-start group cursor-pointer block"
             >
               <div className="overflow-hidden rounded-sm mb-3 sm:mb-4 noir-glow">

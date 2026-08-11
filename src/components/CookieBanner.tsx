@@ -18,7 +18,7 @@ const CookieBanner = () => {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-xl border-t border-border px-5 py-4 sm:px-8 animate-fade-in">
+    <div role="region" aria-label="Informativa cookie" className="fixed bottom-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-xl border-t border-border px-5 py-4 sm:px-8 animate-fade-in">
       <div className="container-narrow flex flex-col sm:flex-row items-center justify-between gap-3 max-w-4xl mx-auto">
         <p className="text-xs sm:text-sm text-muted-foreground text-center sm:text-left leading-relaxed">
           Questo sito utilizza solo cookie tecnici necessari al funzionamento. Nessun dato di profilazione viene raccolto.{" "}
