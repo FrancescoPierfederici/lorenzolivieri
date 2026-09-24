@@ -21,8 +21,8 @@ const AuthorSection = () => {
               </p>
               <p>
                 Ho creato personaggi seriali che si intrecciano tra i romanzi: Ocra Luigi,
-                detto Gigi — un libraio gentile, spiritoso e brillante, sempre coinvolto
-                in circostanze misteriose. E il suo alter ego, John Smith L'Italiano —
+                detto Gigi, un libraio gentile, spiritoso e brillante, sempre coinvolto
+                in circostanze misteriose. E il suo alter ego, John Smith L'Italiano,
                 sfacciato, cupo, rissoso e romantico, con una personalità che gli crea
                 più problemi di quanti ne risolva.
               </p>
