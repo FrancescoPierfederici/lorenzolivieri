@@ -1,6 +1,6 @@
 # Lorenzo Livieri — Author Website
 
-Sito realizzato da Francesco Pierfederici per l'autore Lorenzo Livieri, pubblicato con il suo consenso.
+Website designed and built by Francesco Pierfederici for author Lorenzo Livieri, published with his consent.
 
 A fast, dark, mobile first website for Italian thriller author Lorenzo Livieri.
 Built as a single page React app with a strong focus on typography, atmosphere
